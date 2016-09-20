@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF1F5EF71D87CE3400EACC07 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1F5EF61D87CE3400EACC07 /* main.m */; };
+		DF1F5EFA1D87CE3400EACC07 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1F5EF91D87CE3400EACC07 /* AppDelegate.m */; };
+		DF1F5EFD1D87CE3400EACC07 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1F5EFC1D87CE3400EACC07 /* ViewController.m */; };
+		DF1F5F001D87CE3400EACC07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF1F5EFE1D87CE3400EACC07 /* Main.storyboard */; };
+		DF1F5F021D87CE3400EACC07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF1F5F011D87CE3400EACC07 /* Assets.xcassets */; };
+		DF1F5F051D87CE3400EACC07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF1F5F031D87CE3400EACC07 /* LaunchScreen.storyboard */; };
+		DF1F5F0D1D8834B800EACC07 /* weibo.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF1F5F0C1D8834B800EACC07 /* weibo.plist */; };
+		DF1F5F1F1D88501900EACC07 /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = DF1F5F0F1D88501900EACC07 /* 0.png */; };
+		DF1F5F201D88501900EACC07 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = DF1F5F101D88501900EACC07 /* 1.png */; };
+		DF1F5F211D88501900EACC07 /* 10.png in Resources */ = {isa = PBXBuildFile; fileRef = DF1F5F111D88501900EACC07 /* 10.png */; };
+		DF1F5F221D88501900EACC07 /* 11.png in Resources */ = {isa = PBXBuildFile; fileRef = DF1F5F121D88501900EACC07 /* 11.png */; };
+		DF1F5F231D88501900EACC07 /* 12.png in Resources */ = {isa = PBXBuildFile; fileRef = DF1F5F131D88501900EACC07 /* 12.png */; };
+		DF1F5F241D88501900EACC07 /* 13.png in Resources */ = {isa = PBXBuildFile; fileRef = DF1F5F141D88501900EACC07 /* 13.png */; };
+		DF1F5F251D88501900EACC07 /* 14.png in Resources */ = {isa = PBXBuildFile; fileRef = DF1F5F151D88501900EACC07 /* 14.png */; };
+		DF1F5F261D88501900EACC07 /* 15.png in Resources */ = {isa = PBXBuildFile; fileRef = DF1F5F161D88501900EACC07 /* 15.png */; };
+		DF1F5F271D88501900EACC07 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = DF1F5F171D88501900EACC07 /* 2.png */; };
+		DF1F5F281D88501900EACC07 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = DF1F5F181D88501900EACC07 /* 3.png */; };
+		DF1F5F291D88501900EACC07 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = DF1F5F191D88501900EACC07 /* 4.png */; };
+		DF1F5F2A1D88501900EACC07 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = DF1F5F1A1D88501900EACC07 /* 5.png */; };
+		DF1F5F2B1D88501900EACC07 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = DF1F5F1B1D88501900EACC07 /* 6.png */; };
+		DF1F5F2C1D88501900EACC07 /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = DF1F5F1C1D88501900EACC07 /* 7.png */; };
+		DF1F5F2D1D88501900EACC07 /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = DF1F5F1D1D88501900EACC07 /* 8.png */; };
+		DF1F5F2E1D88501900EACC07 /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = DF1F5F1E1D88501900EACC07 /* 9.png */; };
+		DF1F5F391D88502200EACC07 /* 001.png in Resources */ = {isa = PBXBuildFile; fileRef = DF1F5F301D88502200EACC07 /* 001.png */; };
+		DF1F5F3A1D88502200EACC07 /* 002.png in Resources */ = {isa = PBXBuildFile; fileRef = DF1F5F311D88502200EACC07 /* 002.png */; };
+		DF1F5F3B1D88502200EACC07 /* 003.png in Resources */ = {isa = PBXBuildFile; fileRef = DF1F5F321D88502200EACC07 /* 003.png */; };
+		DF1F5F3C1D88502200EACC07 /* 004.png in Resources */ = {isa = PBXBuildFile; fileRef = DF1F5F331D88502200EACC07 /* 004.png */; };
+		DF1F5F3D1D88502200EACC07 /* 005.png in Resources */ = {isa = PBXBuildFile; fileRef = DF1F5F341D88502200EACC07 /* 005.png */; };
+		DF1F5F3E1D88502200EACC07 /* 006.png in Resources */ = {isa = PBXBuildFile; fileRef = DF1F5F351D88502200EACC07 /* 006.png */; };
+		DF1F5F3F1D88502200EACC07 /* 007.png in Resources */ = {isa = PBXBuildFile; fileRef = DF1F5F361D88502200EACC07 /* 007.png */; };
+		DF1F5F401D88502200EACC07 /* 008.png in Resources */ = {isa = PBXBuildFile; fileRef = DF1F5F371D88502200EACC07 /* 008.png */; };
+		DF1F5F411D88502200EACC07 /* 009.png in Resources */ = {isa = PBXBuildFile; fileRef = DF1F5F381D88502200EACC07 /* 009.png */; };
+		DF1F5F471D8850C900EACC07 /* WeiBoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1F5F461D8850C900EACC07 /* WeiBoCell.m */; };
+		DF1F5F4A1D8859B300EACC07 /* WeiBoData.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1F5F491D8859B300EACC07 /* WeiBoData.m */; };
+		DF5BB5521D892B1C00659918 /* WeiBoFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = DF5BB5511D892B1C00659918 /* WeiBoFrame.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DF1F5EF21D87CE3400EACC07 /* 代码创建 cell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "代码创建 cell.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF1F5EF61D87CE3400EACC07 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF1F5EF81D87CE3400EACC07 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DF1F5EF91D87CE3400EACC07 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DF1F5EFB1D87CE3400EACC07 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DF1F5EFC1D87CE3400EACC07 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DF1F5EFF1D87CE3400EACC07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF1F5F011D87CE3400EACC07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF1F5F041D87CE3400EACC07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF1F5F061D87CE3400EACC07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF1F5F0C1D8834B800EACC07 /* weibo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = weibo.plist; sourceTree = "<group>"; };
+		DF1F5F0F1D88501900EACC07 /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
+		DF1F5F101D88501900EACC07 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		DF1F5F111D88501900EACC07 /* 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10.png; sourceTree = "<group>"; };
+		DF1F5F121D88501900EACC07 /* 11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11.png; sourceTree = "<group>"; };
+		DF1F5F131D88501900EACC07 /* 12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12.png; sourceTree = "<group>"; };
+		DF1F5F141D88501900EACC07 /* 13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 13.png; sourceTree = "<group>"; };
+		DF1F5F151D88501900EACC07 /* 14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 14.png; sourceTree = "<group>"; };
+		DF1F5F161D88501900EACC07 /* 15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 15.png; sourceTree = "<group>"; };
+		DF1F5F171D88501900EACC07 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		DF1F5F181D88501900EACC07 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		DF1F5F191D88501900EACC07 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		DF1F5F1A1D88501900EACC07 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		DF1F5F1B1D88501900EACC07 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		DF1F5F1C1D88501900EACC07 /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		DF1F5F1D1D88501900EACC07 /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
+		DF1F5F1E1D88501900EACC07 /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9.png; sourceTree = "<group>"; };
+		DF1F5F301D88502200EACC07 /* 001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 001.png; sourceTree = "<group>"; };
+		DF1F5F311D88502200EACC07 /* 002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 002.png; sourceTree = "<group>"; };
+		DF1F5F321D88502200EACC07 /* 003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 003.png; sourceTree = "<group>"; };
+		DF1F5F331D88502200EACC07 /* 004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 004.png; sourceTree = "<group>"; };
+		DF1F5F341D88502200EACC07 /* 005.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 005.png; sourceTree = "<group>"; };
+		DF1F5F351D88502200EACC07 /* 006.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 006.png; sourceTree = "<group>"; };
+		DF1F5F361D88502200EACC07 /* 007.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 007.png; sourceTree = "<group>"; };
+		DF1F5F371D88502200EACC07 /* 008.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 008.png; sourceTree = "<group>"; };
+		DF1F5F381D88502200EACC07 /* 009.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 009.png; sourceTree = "<group>"; };
+		DF1F5F451D8850C900EACC07 /* WeiBoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiBoCell.h; sourceTree = "<group>"; };
+		DF1F5F461D8850C900EACC07 /* WeiBoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeiBoCell.m; sourceTree = "<group>"; };
+		DF1F5F481D8859B300EACC07 /* WeiBoData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiBoData.h; sourceTree = "<group>"; };
+		DF1F5F491D8859B300EACC07 /* WeiBoData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeiBoData.m; sourceTree = "<group>"; };
+		DF5BB5501D892B1C00659918 /* WeiBoFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiBoFrame.h; sourceTree = "<group>"; };
+		DF5BB5511D892B1C00659918 /* WeiBoFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeiBoFrame.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF1F5EEF1D87CE3400EACC07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF1F5EE91D87CE3400EACC07 = {
+			isa = PBXGroup;
+			children = (
+				DF1F5EF41D87CE3400EACC07 /* 代码创建 cell */,
+				DF1F5EF31D87CE3400EACC07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF1F5EF31D87CE3400EACC07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF1F5EF21D87CE3400EACC07 /* 代码创建 cell.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF1F5EF41D87CE3400EACC07 /* 代码创建 cell */ = {
+			isa = PBXGroup;
+			children = (
+				DF1F5EF81D87CE3400EACC07 /* AppDelegate.h */,
+				DF1F5EF91D87CE3400EACC07 /* AppDelegate.m */,
+				DF1F5EFB1D87CE3400EACC07 /* ViewController.h */,
+				DF1F5EFC1D87CE3400EACC07 /* ViewController.m */,
+				DF1F5EFE1D87CE3400EACC07 /* Main.storyboard */,
+				DF1F5F011D87CE3400EACC07 /* Assets.xcassets */,
+				DF1F5F031D87CE3400EACC07 /* LaunchScreen.storyboard */,
+				DF1F5F061D87CE3400EACC07 /* Info.plist */,
+				DF1F5EF51D87CE3400EACC07 /* Supporting Files */,
+			);
+			path = "代码创建 cell";
+			sourceTree = "<group>";
+		};
+		DF1F5EF51D87CE3400EACC07 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF1F5F2F1D88502200EACC07 /* weibo头像 */,
+				DF1F5F0E1D88501900EACC07 /* weibo配图 */,
+				DF1F5EF61D87CE3400EACC07 /* main.m */,
+				DF1F5F0C1D8834B800EACC07 /* weibo.plist */,
+				DF1F5F451D8850C900EACC07 /* WeiBoCell.h */,
+				DF1F5F461D8850C900EACC07 /* WeiBoCell.m */,
+				DF1F5F481D8859B300EACC07 /* WeiBoData.h */,
+				DF1F5F491D8859B300EACC07 /* WeiBoData.m */,
+				DF5BB5501D892B1C00659918 /* WeiBoFrame.h */,
+				DF5BB5511D892B1C00659918 /* WeiBoFrame.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF1F5F0E1D88501900EACC07 /* weibo配图 */ = {
+			isa = PBXGroup;
+			children = (
+				DF1F5F0F1D88501900EACC07 /* 0.png */,
+				DF1F5F101D88501900EACC07 /* 1.png */,
+				DF1F5F111D88501900EACC07 /* 10.png */,
+				DF1F5F121D88501900EACC07 /* 11.png */,
+				DF1F5F131D88501900EACC07 /* 12.png */,
+				DF1F5F141D88501900EACC07 /* 13.png */,
+				DF1F5F151D88501900EACC07 /* 14.png */,
+				DF1F5F161D88501900EACC07 /* 15.png */,
+				DF1F5F171D88501900EACC07 /* 2.png */,
+				DF1F5F181D88501900EACC07 /* 3.png */,
+				DF1F5F191D88501900EACC07 /* 4.png */,
+				DF1F5F1A1D88501900EACC07 /* 5.png */,
+				DF1F5F1B1D88501900EACC07 /* 6.png */,
+				DF1F5F1C1D88501900EACC07 /* 7.png */,
+				DF1F5F1D1D88501900EACC07 /* 8.png */,
+				DF1F5F1E1D88501900EACC07 /* 9.png */,
+			);
+			path = "weibo配图";
+			sourceTree = "<group>";
+		};
+		DF1F5F2F1D88502200EACC07 /* weibo头像 */ = {
+			isa = PBXGroup;
+			children = (
+				DF1F5F301D88502200EACC07 /* 001.png */,
+				DF1F5F311D88502200EACC07 /* 002.png */,
+				DF1F5F321D88502200EACC07 /* 003.png */,
+				DF1F5F331D88502200EACC07 /* 004.png */,
+				DF1F5F341D88502200EACC07 /* 005.png */,
+				DF1F5F351D88502200EACC07 /* 006.png */,
+				DF1F5F361D88502200EACC07 /* 007.png */,
+				DF1F5F371D88502200EACC07 /* 008.png */,
+				DF1F5F381D88502200EACC07 /* 009.png */,
+			);
+			path = "weibo头像";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF1F5EF11D87CE3400EACC07 /* 代码创建 cell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF1F5F091D87CE3400EACC07 /* Build configuration list for PBXNativeTarget "代码创建 cell" */;
+			buildPhases = (
+				DF1F5EEE1D87CE3400EACC07 /* Sources */,
+				DF1F5EEF1D87CE3400EACC07 /* Frameworks */,
+				DF1F5EF01D87CE3400EACC07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "代码创建 cell";
+			productName = "代码创建 cell";
+			productReference = DF1F5EF21D87CE3400EACC07 /* 代码创建 cell.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF1F5EEA1D87CE3400EACC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = study;
+				TargetAttributes = {
+					DF1F5EF11D87CE3400EACC07 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = PD69ME9EQ3;
+					};
+				};
+			};
+			buildConfigurationList = DF1F5EED1D87CE3400EACC07 /* Build configuration list for PBXProject "代码创建 cell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF1F5EE91D87CE3400EACC07;
+			productRefGroup = DF1F5EF31D87CE3400EACC07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF1F5EF11D87CE3400EACC07 /* 代码创建 cell */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF1F5EF01D87CE3400EACC07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF1F5F3F1D88502200EACC07 /* 007.png in Resources */,
+				DF1F5F271D88501900EACC07 /* 2.png in Resources */,
+				DF1F5F051D87CE3400EACC07 /* LaunchScreen.storyboard in Resources */,
+				DF1F5F411D88502200EACC07 /* 009.png in Resources */,
+				DF1F5F211D88501900EACC07 /* 10.png in Resources */,
+				DF1F5F391D88502200EACC07 /* 001.png in Resources */,
+				DF1F5F3E1D88502200EACC07 /* 006.png in Resources */,
+				DF1F5F291D88501900EACC07 /* 4.png in Resources */,
+				DF1F5F3B1D88502200EACC07 /* 003.png in Resources */,
+				DF1F5F3C1D88502200EACC07 /* 004.png in Resources */,
+				DF1F5F251D88501900EACC07 /* 14.png in Resources */,
+				DF1F5F401D88502200EACC07 /* 008.png in Resources */,
+				DF1F5F261D88501900EACC07 /* 15.png in Resources */,
+				DF1F5F2B1D88501900EACC07 /* 6.png in Resources */,
+				DF1F5F2D1D88501900EACC07 /* 8.png in Resources */,
+				DF1F5F281D88501900EACC07 /* 3.png in Resources */,
+				DF1F5F1F1D88501900EACC07 /* 0.png in Resources */,
+				DF1F5F2C1D88501900EACC07 /* 7.png in Resources */,
+				DF1F5F3A1D88502200EACC07 /* 002.png in Resources */,
+				DF1F5F3D1D88502200EACC07 /* 005.png in Resources */,
+				DF1F5F231D88501900EACC07 /* 12.png in Resources */,
+				DF1F5F221D88501900EACC07 /* 11.png in Resources */,
+				DF1F5F2E1D88501900EACC07 /* 9.png in Resources */,
+				DF1F5F241D88501900EACC07 /* 13.png in Resources */,
+				DF1F5F021D87CE3400EACC07 /* Assets.xcassets in Resources */,
+				DF1F5F201D88501900EACC07 /* 1.png in Resources */,
+				DF1F5F2A1D88501900EACC07 /* 5.png in Resources */,
+				DF1F5F001D87CE3400EACC07 /* Main.storyboard in Resources */,
+				DF1F5F0D1D8834B800EACC07 /* weibo.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF1F5EEE1D87CE3400EACC07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF1F5F471D8850C900EACC07 /* WeiBoCell.m in Sources */,
+				DF1F5EFD1D87CE3400EACC07 /* ViewController.m in Sources */,
+				DF1F5F4A1D8859B300EACC07 /* WeiBoData.m in Sources */,
+				DF1F5EFA1D87CE3400EACC07 /* AppDelegate.m in Sources */,
+				DF5BB5521D892B1C00659918 /* WeiBoFrame.m in Sources */,
+				DF1F5EF71D87CE3400EACC07 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DF1F5EFE1D87CE3400EACC07 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF1F5EFF1D87CE3400EACC07 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF1F5F031D87CE3400EACC07 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF1F5F041D87CE3400EACC07 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF1F5F071D87CE3400EACC07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DF1F5F081D87CE3400EACC07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF1F5F0A1D87CE3400EACC07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "代码创建 cell/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.study.goodder.-----cell";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DF1F5F0B1D87CE3400EACC07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "代码创建 cell/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.study.goodder.-----cell";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF1F5EED1D87CE3400EACC07 /* Build configuration list for PBXProject "代码创建 cell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF1F5F071D87CE3400EACC07 /* Debug */,
+				DF1F5F081D87CE3400EACC07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF1F5F091D87CE3400EACC07 /* Build configuration list for PBXNativeTarget "代码创建 cell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF1F5F0A1D87CE3400EACC07 /* Debug */,
+				DF1F5F0B1D87CE3400EACC07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF1F5EEA1D87CE3400EACC07 /* Project object */;
+}
